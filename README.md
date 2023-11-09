@@ -1,7 +1,7 @@
 # Juego número aleatorio.
 ## Python.
 
-En primer lugar se creó un archivo .py (python), en el cual se trabajó a través del programa visual studio code con la extensión de python.
+En primer lugar se creó un archivo .py (python), sobre el que se trabajó a través del programa visual studio code con la extensión de python.
 
 A continuación, se analizará de forma breve el código utilizado:
 
