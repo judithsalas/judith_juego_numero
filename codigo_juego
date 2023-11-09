@@ -1,1 +1,23 @@
--set-upstream all master
+import random
+
+def adivina_numero():
+    numero_secreto = random.randint(1, 100)
+    intentos = 0
+
+    print("Bienvenido al juego de adivinar el número")
+    print("Estoy pensando en un número del 1 al 100. ¿Puedes adivinar de cuál se trata?")
+
+    while True:
+        guess = int(input("Introduce tu suposición: "))
+        intentos += 1
+        
+        if guess == numero_secreto:
+            print(f"Felicidades, has ganado con un total de {intentos} intentos.")
+            break
+        elif guess < numero_secreto:
+            print("El número es más alto, inténtalo de nuevo.")
+        else:
+            print("El número es más bajo, inténtalo de nuevo.")
+
+if __name__ == "__main__":
+    adivina_numero()
